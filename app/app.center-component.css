@@ -1,0 +1,43 @@
+#mainCenterComponent {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.menu {
+    border: 1px solid #CED3D6;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.menu span {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#pictures {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 164px;
+    margin-right: 166px;
+
+}
+
+#pictures div {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    width: 370px;
+}
+
+img {
+    width: 100%
+}
