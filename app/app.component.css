@@ -11,7 +11,8 @@ up-menu {
     width: 98%;
     z-index: 3;
 }
-app-center-component{
+
+app-center-component {
     position: absolute;
     margin-top: 478px;
 }

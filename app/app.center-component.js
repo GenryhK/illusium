@@ -46,7 +46,7 @@ var AppCenterComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'app-center-component',
             styleUrls: ['./app/app.center-component.css'],
-            template: "\n        <div id=\"mainCenterComponent\">\n            <div class=\"menu\" *ngFor=\"let i of menu\" (mouseover)=\"mouseover($event)\" (mouseout)=\"mouseout($event)\">\n                <span>{{i}}</span></div>\n        </div>\n        <div id=\"pictures\">\n            <div *ngFor=\"let k of images\"><img src=\"{{k}}\"/></div>\n        </div>",
+            template: "\n        <div id=\"mainCenterComponent\">\n            <div class=\"menu\" *ngFor=\"let i of menu\" (mouseover)=\"mouseover($event)\" (mouseout)=\"mouseout($event)\">\n                <span>{{i}}</span></div>\n        </div>\n        <div id=\"pictures\">\n            <div *ngFor=\"let k of images\"><img src=\"{{k}}\"/></div>\n        </div>\n        <foot></foot>",
             providers: [service_1.Service]
         }),
         __metadata("design:paramtypes", [service_1.Service])

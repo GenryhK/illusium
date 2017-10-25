@@ -1,16 +1,12 @@
 "use strict";
-// Определение компонента app.component
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-// импорт декоратора Component из модуля @angular/core
+exports.__esModule = true;
 var core_1 = require("@angular/core");
-// Применение декоратора Component для класса AppComponent
-// Декоратор используется для присвоения метаданных для класса AppComponent
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
     }
@@ -18,10 +14,9 @@ var AppComponent = /** @class */ (function () {
         core_1.Component({
             selector: 'my-app',
             styleUrls: ['./app/app.component.css'],
-            template: '<main-background></main-background><up-menu></up-menu><app-center-component></app-center-component>' // HTML разметка определяющая представление текущего компонента
+            template: "\n        <main-background></main-background>\n        <up-menu></up-menu>\n        <app-center-component></app-center-component>\n    "
         })
     ], AppComponent);
     return AppComponent;
-}()); // Класс определяющий поведение компонента
+}());
 exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map

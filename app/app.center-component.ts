@@ -12,7 +12,8 @@ import {OnInit} from "@angular/core";
         </div>
         <div id="pictures">
             <div *ngFor="let k of images"><img src="{{k}}"/></div>
-        </div>`,
+        </div>
+        <foot></foot>`,
     providers: [Service]
 
 })
